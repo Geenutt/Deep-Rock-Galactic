@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Heavitas, sans-serif;
+}
+
+div{
+    display: block;
+}
+
+@font-face {
+    font-family: Heavitas;
+    src: url(Heavitas.ttf);
+}
+
+html{
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+
+img{
+    max-width: 100%;
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+.Nav-content{
+    max-width: 100%;
+    display: flex;
+    font-size: 20px;
+    background-image: url(imgs-for-wallpaper/Fungus_Bug_final.jpg);
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    height: 309px;
+    
+}
+
+.Nav-content a{
+    text-decoration: none;
+    color: gray;
+}
+
+.title-nav{
+    margin-top: -240px;
+}
+
+.title-nav img{
+    width: 150px;
+    max-width: 150px;
+    height: 100%;
+}
+
+.logo-nav{
+    width: 70px !important;
+}
+
+.title-wallpapers{
+    position: absolute;
+    left: 670px;
+    top: 180px;
+    font-size: 50px;
+    color: #ffbf00;
+}
+
+.main-content{
+    background-color: #212121;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 100px 34px;
+}
+
+.grid-2-column {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+@media (min-width: 959px){
+.grid-2-column {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 1.5rem;
+    display: grid;
+    }
+}
+
+.img-special{
+    width: 100%;
+}
+
+.cover {
+    background-color: rgb(30, 30, 30);
+}
+
+.pre-Footer {
+    margin: 0 auto;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0 0;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+.pre-Footer p {
+    font-size: 20px;
+}
+
+.pre-Footer img {
+    border-bottom: 1px solid rgb(80, 80, 80);
+    margin: 40px 0;
+}
+
+.pre-Footer img:hover {
+    border-color: white;
+}
+/* Footer */
+.footer {
+    background-color: black;
+}
+
+.footer .backtotop {
+    margin: 0 60px;
+    color: gray;
+    cursor: pointer;
+    padding: 50px 68px;
+    text-align: center;
+}
+
+.footer .backtotop p {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.backtotop:hover {
+    color: white;
+}
+
+.socialMedia {
+    margin: 0 auto;
+    max-width: 500px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 40px;
+}
+
+.socialMedia svg {
+    padding: 5px;
+    border: 1px solid yellow;
+    width: 40px;
+    height: 40px;
+}
+
+.socialMedia a {
+    text-decoration: none;
+    color: white;
+}
+
+.socialMedia svg:hover {
+    color: black;
+    background-color: white;
+}
+
+.footer .info {
+    font-size: 12px;
+    color: white;
+    padding: 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer .info span {
+    margin: 0 3px;
+    border-bottom: 1px solid rgb(80, 80, 80);
+    padding:0 5px;
+    border-right: 1px solid white;
+}
+
+.footer .info span:hover {
+    border-color: white;
+}
+
+.footer .info a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .info .last {
+    border-right: none;
+}
